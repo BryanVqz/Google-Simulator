@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project 0</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <script
+      src="https://kit.fontawesome.com/facf04efd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Page selector-->
+    <nav>
+      <ul class="navbar">
+        <li class="nav-item">
+          <a class="link" href="/images.html">Google images</a>
+        </li>
+        <li class="nav-item">
+          <a class="link" href="/advanced.html">Advanced search</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="img">
+      <img class="google" src="img/google.png" alt="google" />
+    </div>
+    <div class="webContainer">
+      <form action="https://www.google.com/search">
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input
+            class="search-input"
+            type="text"
+            name="q"
+            placeholder="Search..."
+          />
+        </div>
+        <div class="btn-container">
+          <input class="btn search-btn" type="submit" value="Google Search" />
+          <input
+            class="btn luck-btn"
+            type="submit"
+            name="btnI"
+            value="I'm Feeling Lucky"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
